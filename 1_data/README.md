@@ -9,7 +9,9 @@ This directory contains annotated sentences from the UN Parallel Corpus v1.0[[1]
 
 If a sentence did not fit into this schema, it was labelled as irrelevant.
 
-JSON Files directly from the annotation software Label Studio are located in the directory JSON. TSVs for use in downstream tasks are located in the directories quadclass (for multi-class classification) and binary (for binary relevant vs. irrelevant classification). Within the quadclass and binary directories, files are available for each language and bundled in one file.
+JSON Files directly from the annotation software Label Studio are located in the directory JSON. TSVs for use in downstream tasks are located in the directories quadclass (for multi-class classification) and binary (for binary relevant vs. irrelevant classification). Within the quadclass and binary directories, files are available both for each language and bundled in one file.
+
+The script that converts JSON files is also in this directory for reproducibility and for use if updates to the data files are required. process_json_to_csv.py requires one argument, the directory that contains the JSON files.
 
 Included are 3 types of files for feeding into the downstream tasks:
 * Multi-class - tsv containing the text field and a field with a number for each coded category
