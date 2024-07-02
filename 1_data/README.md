@@ -20,7 +20,6 @@ Included are 3 types of files for feeding into the downstream tasks:
     * 2 = Material Conflict
     * 3 = Verbal Cooperation
     * 4 = Material Cooperation
-* Multi-class one-hot - tsv containing the text field and a binary vector with a field for each coded category. For use in multi-class classification if one-hot binary vector format is preferred
 * Binary - tsv containing the text field and a field for relevancy (0 = irrelevant, 1 = relevant). For binary classification
 
 ## References
