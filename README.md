@@ -19,7 +19,8 @@ This repository contains the replication files for the paper "Keep it Local: Com
 
 The repository contains the following folders:
 * 1_data
-* 2_downstream_tasks
+* 2_quality_analysis
+* 3_downstream_tasks
 
 
 
