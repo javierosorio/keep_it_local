@@ -20,6 +20,7 @@ The script that converts JSON files is also in this directory for reproducibilit
 
 Included are 3 types of files for feeding into the downstream tasks:
 * Multi-class - tsv containing the text field and a field with a number for each coded category
+    * -1 = Excluded because of multi-label classification in QuadClass
     * 0 = Irrelevant
     * 1 = Verbal Conflict
     * 2 = Material Conflict
