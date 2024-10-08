@@ -11,6 +11,9 @@
 * Latifur Khan, University of Texas - Dallas
 * Patrick T. Brandt, University of Texas - Dallas
 * Vito D'Orazio, West Virginia University
+* Niamat Zawad, University of Texas - Dallas
+* Mahrusa Billah, University of Texas - Dallas
+
 
 
 ## Introduction
