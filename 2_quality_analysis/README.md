@@ -1,4 +1,4 @@
-# Translation Quality Evaluation Analysis
+# Translation & Translation Quality Evaluation Analysis
 
 This repository contains two main components: scripts and results for the following tasks:
 
