@@ -13,5 +13,5 @@ This repository contains two main components: scripts and results for the follow
 3. **METEOR**
 4. **BERTScore**
 
-Each task is accompanied by a detailed `README` file located within its respective folder, providing clear instructions and guidance to help users understand and replicate both the translation process and the quality assessment.
+Each task is accompanied by a detailed `README` file located within its respective folder within the script folder, providing clear instructions and guidance to help users understand and replicate both the translation process and the quality assessment.
 
