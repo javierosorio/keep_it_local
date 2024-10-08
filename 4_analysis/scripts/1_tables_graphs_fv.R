@@ -26,7 +26,7 @@ pacman::p_load(here, glue, openxlsx, tidyverse, ggplot2, readxl, scales, dplyr, 
 
 
 # Get data
-data <- read_excel('data/raw_data/data_master.xlsx')
+data <- read_csv('1_data/data_master.csv')
 #data <- read.csv(file = 'data/raw_data/data_master.csv',  header = TRUE)
 #data <- read.csv('https://raw.githubusercontent.com/javierosorio/keep_it_local/main/1_data/data_master.csv', header = TRUE)
 
@@ -44,7 +44,7 @@ data.binary <- data
 # Generate quadclass data
 data.quadclass <- data %>% 
   mutate(QuadClass=as.numeric(QuadClass)) %>% 
-  dplyr::filter(QuadClass>=1)  
+  dplyr::filter(QuadClass>=0)  
 
 
 
@@ -72,7 +72,8 @@ data.quadclass.pct <- data.quadclass %>%
   mutate(pct = as.character(pct)) %>%
   mutate(pct = paste0(pct,"%")) 
 
-
+data.quadclass.pct$QuadClass <- factor(data.quadclass.pct$QuadClass,
+                                       c(1,2,3,4,0))
 
 
 
@@ -99,11 +100,11 @@ ggsave("graphs/binary_freqs_3.pdf", width = 2.7, height = 2, units = "in")
 ggplot(data=data.quadclass.pct, aes(x=QuadClass, y=n)) +
   geom_bar(stat="identity")+ 
   xlab("") + ylab("Number of sentences") +
-  scale_x_discrete(labels=c("Mat\nConf", "Mat\nCoop","Verb\nConf", "Verb\nCoop")) +
+  scale_x_discrete(labels=c("Mat\nConf", "Mat\nCoop","Verb\nConf", "Verb\nCoop","Not\nrelevant")) +
   geom_text(aes(label=pct), vjust=1.6, color="white", size=3.5)+
   theme_minimal()
 
-ggsave("graphs/quadclass_freqs_3.pdf", width = 3.5, height = 2, units = "in")
+ggsave("graphs/quadclass_freqs_4.pdf", width = 3.5, height = 2, units = "in")
 
 
 
@@ -116,3 +117,4 @@ ggsave("graphs/quadclass_freqs_3.pdf", width = 3.5, height = 2, units = "in")
 
 
 # End of script
+
