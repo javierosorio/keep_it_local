@@ -18,9 +18,10 @@
 This repository contains the replication files for the paper "Keep it Local: Comparing Domain-Specific LLMs in Native Language and Machine Translation using Parallel Corpora"
 
 The repository contains the following folders:
-* 1_data
-* 2_quality_analysis
-* 3_downstream_tasks
+* **1_data**: includes the raw text data in English, Spanish, and Arabic, as well as the annotations.
+* **2_quality_analysis**: includes the Python scripts used to generate the translation quality metrics and their corresponding data output.
+* **3_downstream_tasks**: includes the Python scripts used to fine-tune the different models on the binary and multi-class classification tasks.
+* **4_analysis**: includes the R scripts used to generate the Figures and Tables reported in the paper.
 
 
 
