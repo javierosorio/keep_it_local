@@ -4,7 +4,7 @@
 ## Authors:
 * Javier Osorio, University of Arizona
 * Amber Converse, University of Arizona
-* Daif Alatrush, University of Texas - Dallas
+* Naif Alatrush, University of Texas - Dallas
 * Afraa Alshammari, University of Texas - Dallas
 * Sultan Alsarra, King Saud University
 * Dagmar Heintze, University of Texas - Dallas
