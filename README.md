@@ -3,12 +3,12 @@
 
 ## Authors:
 * Javier Osorio, University of Arizona
-* Amber Converse, University of Arizona
-* Naif Alatrush, University of Texas - Dallas
-* Afraa Alshammari, University of Texas - Dallas
 * Sultan Alsarra, King Saud University
+* Amber Converse, University of Arizona
+* Afraa Alshammari, University of Texas - Dallas
 * Dagmar Heintze, University of Texas - Dallas
 * Latifur Khan, University of Texas - Dallas
+* Naif Alatrush, University of Texas - Dallas
 * Patrick T. Brandt, University of Texas - Dallas
 * Vito D'Orazio, West Virginia University
 * Niamat Zawad, University of Texas - Dallas
